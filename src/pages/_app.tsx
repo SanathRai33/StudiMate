@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Sidebar from "@/components/Sidebar";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 
@@ -9,8 +10,8 @@ export default function App({ Component, pageProps }: AppProps) {
         <Navbar />
         {/* <Toaster /> */}
         <div className="flex flex-1 flex-col-reverse md:flex-row">
-          {/* <Sidebar /> */}
-          <Component {...pageProps} />
+          <Sidebar />
+            <Component {...pageProps} />
         </div>
       </div>
   )
