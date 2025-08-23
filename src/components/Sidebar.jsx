@@ -43,7 +43,7 @@ function Sidebar() {
                     <motion.div variants={itemVariants} whileHover={{ scale: 1.05 }}>
                         <Button className="flex justify-start space-x-2 bg-gray-100 hover:bg-white w-full rounded-xl text-[18px] font-semibold h-10 ">
                             <Home color="black" style={{ height: "25px", width: "25px" }} />
-                            <Link href="/timetable" className="text-gray-800 hover:text-blue-500">
+                            <Link href="/" className="text-gray-800 hover:text-blue-500">
                                 Dashboard
                             </Link>
                         </Button>
@@ -53,7 +53,7 @@ function Sidebar() {
                     <motion.div variants={itemVariants} whileHover={{ scale: 1.05 }}>
                         <Button className="flex justify-start space-x-2 bg-gray-100 hover:bg-white w-full rounded-xl text-[18px] font-semibold h-10 ">
                             <Bot color="black" style={{ height: "25px", width: "25px" }} />
-                            <Link href="/timetable" className="text-gray-800 hover:text-blue-500">
+                            <Link href="/chat" className="text-gray-800 hover:text-blue-500">
                                 Chat with AI
                             </Link>
                         </Button>
@@ -63,7 +63,7 @@ function Sidebar() {
                     <motion.div variants={itemVariants} whileHover={{ scale: 1.05 }}>
                         <Button className="flex justify-start space-x-2 bg-gray-100 hover:bg-white w-full rounded-xl text-[18px] font-semibold h-10 ">
                             <NotepadText color="black" style={{ height: "25px", width: "25px" }} />
-                            <Link href="/timetable" className="text-gray-800 hover:text-blue-500">
+                            <Link href="/notes" className="text-gray-800 hover:text-blue-500">
                                 Notes
                             </Link>
                         </Button>
@@ -73,7 +73,7 @@ function Sidebar() {
                     <motion.div variants={itemVariants} whileHover={{ scale: 1.05 }}>
                         <Button className="flex justify-start space-x-2 bg-gray-100 hover:bg-white w-full rounded-xl text-[18px] font-semibold h-10 ">
                             <GoalIcon color="black" style={{ height: "25px", width: "25px" }} />
-                            <Link href="/timetable" className="text-gray-800 hover:text-blue-500">
+                            <Link href="/goal" className="text-gray-800 hover:text-blue-500">
                                 Goal
                             </Link>
                         </Button>
@@ -83,7 +83,7 @@ function Sidebar() {
                     <motion.div variants={itemVariants} whileHover={{ scale: 1.05 }}>
                         <Button className="flex justify-start space-x-2 bg-gray-100 hover:bg-white w-full rounded-xl text-[18px] font-semibold h-10 ">
                             <NewspaperIcon color="black" style={{ height: "25px", width: "25px" }} />
-                            <Link href="/timetable" className="text-gray-800 hover:text-blue-500">
+                            <Link href="/news" className="text-gray-800 hover:text-blue-500">
                                 News
                             </Link>
                         </Button>
