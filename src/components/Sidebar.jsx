@@ -73,7 +73,7 @@ function Sidebar() {
                     <motion.div variants={itemVariants} whileHover={{ scale: 1.05 }}>
                         <Button className="flex justify-start space-x-2 bg-gray-100 hover:bg-white w-full rounded-xl text-[18px] font-semibold h-10 ">
                             <GoalIcon color="black" style={{ height: "25px", width: "25px" }} />
-                            <Link href="/goal" className="text-gray-800 hover:text-blue-500">
+                            <Link href="/goals" className="text-gray-800 hover:text-blue-500">
                                 Goal
                             </Link>
                         </Button>
