@@ -1,7 +1,3 @@
----
-
-## 📌 `frontend/README.md`
-
 ````markdown
 # 🎓 Student Dashboard - Frontend
 
