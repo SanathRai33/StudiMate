@@ -1,4 +1,3 @@
-````markdown
 # 🎓 Student Dashboard - Frontend
 
 This is the **frontend** of the Student Dashboard web app, built using **Next.js (React)**.  
@@ -76,7 +75,4 @@ NEXT_PUBLIC_API_URL=http://localhost:5000
 <!--## 📸 Preview
 
 (👉 Add screenshot of dashboard here)-->
-
-````
-
 ---
